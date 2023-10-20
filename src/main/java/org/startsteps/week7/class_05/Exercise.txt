@@ -28,6 +28,8 @@ Constraints:
     The pop method should not pop an element from the stack if it's empty.
     Assume that the maximum size of the stack will be a positive integer.
 
+Add proper exception handling to the push, pop, and peek methods. Throw exceptions like StackOverflowException when trying to push to a full stack and IllegalStateException when trying to pop from an empty stack.
+
 Bonus:
 
 Dynamic Resizing:
@@ -45,6 +47,3 @@ Add a toString Method:
 
 Stack Operations with Custom Objects:
     If you have implemented generics, create a custom object, say Person with attributes like name and age. Implement the Comparable interface in the Person class. Now, use your CustomStack to store Person objects and sort them based on the age or name.
-
-Exception Handling:
-    Add proper exception handling to the push, pop, and peek methods. Throw exceptions like StackOverflowException when trying to push to a full stack and IllegalStateException when trying to pop from an empty stack.
