@@ -2,6 +2,8 @@ package org.startsteps.week7.class_03;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class ExerciseSolutions {
 
