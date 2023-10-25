@@ -7,11 +7,11 @@ public class ExerciseSolutions {
 
     public static void main(String[] args) {
 //        exercise1();
-//        exercise3();
+        exercise3();
 //        exercise4();
 //        exercise5();
 //        exercise7();
-        exercise8();
+//        exercise8();
     }
 
     public static void exercise1() {
