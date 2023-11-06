@@ -36,4 +36,3 @@ public class ThreadJoinExample {
         thread2.start();
     }
 }
-

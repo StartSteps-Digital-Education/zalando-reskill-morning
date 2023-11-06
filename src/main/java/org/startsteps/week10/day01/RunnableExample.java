@@ -17,6 +17,6 @@ public class RunnableExample implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Inside : " + Thread.currentThread().getName());
+        System.out.println("Inside from run : " + Thread.currentThread().getName());
     }
 }
