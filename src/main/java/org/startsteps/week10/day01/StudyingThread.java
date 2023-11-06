@@ -11,6 +11,7 @@ public class StudyingThread extends Thread {
         } catch (InterruptedException e) {
             // If the student gets interrupted (e.g. by a phone call), this block of code is executed
             System.out.println("Student got interrupted by a phone call.");
+            e.printStackTrace();
         }
     }
 }
@@ -27,4 +28,5 @@ class InterruptedExceptionExample {
         }
         // After 5 seconds, the main thread interrupts the student's studying thread
         student.interrupt();
-    }}
+    }
+}

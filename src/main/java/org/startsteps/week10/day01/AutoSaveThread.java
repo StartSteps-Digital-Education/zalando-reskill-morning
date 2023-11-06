@@ -3,7 +3,7 @@ package org.startsteps.week10.day01;
 public class AutoSaveThread extends Thread {
     public AutoSaveThread() {
         // Set this thread as a daemon thread
-        setDaemon(true);
+//        setDaemon(true);
     }
 
     @Override
@@ -28,7 +28,7 @@ class DaemonThreadExample {
         // Simulate writing a document for 10 seconds
         try {
             System.out.println("Writing document...");
-            Thread.sleep(5000);
+            Thread.sleep(15000);
             System.out.println("Finished writing document");
         } catch (InterruptedException e) {
             e.printStackTrace();
