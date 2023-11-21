@@ -1,5 +1,7 @@
 package org.startsteps.week10.day04.exercises.dependency;
 
+import java.util.Objects;
+
 public class Exercise1 {
     public static void main(String[] args) {
         Device lightBulb = new LightBulb();
